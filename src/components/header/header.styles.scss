@@ -19,7 +19,11 @@
       justify-content: flex-end;
   
       .option {
+        color: black;
+        font-size: larger;
         padding: 10px 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        cursor: pointer;
       }
     }
   }

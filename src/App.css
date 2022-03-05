@@ -9,3 +9,7 @@ a{
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+* {
+    box-sizing: border-box ;
+}
