@@ -8,7 +8,16 @@
     .logo-container {
       height: 100%;
       width: 70px;
-      padding: 25px;
+      padding: 5px;
+      zoom: 1;
+    }
+
+    .project-name{
+        color: black;
+        font-size: larger;
+        padding: 10px 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        visibility: hidden;
     }
   
     .options {

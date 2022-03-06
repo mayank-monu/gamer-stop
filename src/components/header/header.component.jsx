@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { auth } from "../../firebase/firebase.utils";
 
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+import { ReactComponent as Logo } from '../../assets/console.svg';
 
 import './header.styles.scss';
 
@@ -11,6 +11,7 @@ const Header = ({ currentUser }) => (
         <Link className="logo-container" to = "/">
             <Logo className = 'logo'/>
         </Link>
+        <span className="project-name">GAMER-STOP</span>
         <div className="options">
             <Link className="option" to ="/shop">
                 SHOP

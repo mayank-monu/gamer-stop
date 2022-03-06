@@ -9,33 +9,33 @@ class Directory extends React.Component{
         this.state = {
             sections : [
                 {
-                  title: 'CONTROLLERS',
-                  imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                  title: 'CONTrollers',
+                  imageUrl: 'https://images.unsplash.com/photo-1604846887565-640d2f52d564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwY29uc29sZXxlbnwwfHwwfHw%3D&w=1000&q=80',
                   id: 1,
                   linkUrl: 'controllers'
                 },
                 {
                   title: 'AUDIO',
-                  imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                  imageUrl: 'https://www.groovypost.com/wp-content/uploads/2018/05/home-studio-computer-music-sound-audio-settings-pc-featured.jpg',
                   id: 2,
                   linkUrl: ''
                 },
                 {
                   title: 'hardware',
-                  imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+                  imageUrl: 'https://www.itreseller.ch/imgserver/artikel/Produkte/2018/mid/Lenovo_PCs_180713_110757.jpg',
                   id: 3,
                   linkUrl: ''
                 },
                 {
-                  title: 'software',
-                  imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+                  title: 'games',
+                  imageUrl: 'https://cdn.wallpapersafari.com/84/70/yphEzQ.png',
                   size: 'large',
                   id: 4,
                   linkUrl: ''
                 },
                 {
                   title: 'Accessories',
-                  imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+                  imageUrl: 'https://static.techspot.com/images2/news/bigimage/2017/01/2017-01-30-image-18.jpg',
                   size: 'large',
                   id: 5,
                   linkUrl: ''
