@@ -5,11 +5,13 @@ import { auth } from "../../firebase/firebase.utils";
 import { ReactComponent as Logo } from '../../assets/console.svg';
 
 import './header.styles.scss';
+import AppName from "./gamerstop.component";
 
 const Header = ({ currentUser }) => (
     <div className="header">
         <Link className="logo-container" to = "/">
             <Logo className = 'logo'/>
+            <AppName />
         </Link>
         <span className="project-name">GAMER-STOP</span>
         <div className="options">

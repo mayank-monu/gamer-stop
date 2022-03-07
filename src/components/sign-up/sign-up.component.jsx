@@ -24,7 +24,7 @@ class SignUp extends React.Component{
 
         const {displayName, email, password, confirmPassword} = this.state;
 
-        if(password != confirmPassword){
+        if(password !== confirmPassword){
             alert("Passwords mis-match. Please correct the passwords.");
             return;
         }
@@ -34,7 +34,7 @@ class SignUp extends React.Component{
 
             createUserProfileDocument(user, {displayName});
 
-            this.state ({
+            this.setState({
                 displayName : '',
                 email : '',
                 password : '',
