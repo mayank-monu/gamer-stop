@@ -21,15 +21,7 @@ const Header = ({ currentUser, hidden }) => (
         <AppName />
       </Link>
       <div className='options'>
-        <div className="user-name">
-          {
-            currentUser ? (
-              <span className="name">HEY, {currentUser.displayName.split(' ')[0].toUpperCase()}</span>
-            ) : (
-              null
-            )
-          }
-        </div>
+        
         <Link className='option' to='/shop'>
           SHOP
         </Link>

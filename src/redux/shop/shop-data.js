@@ -1,4 +1,5 @@
-const Shop_Data = [{
+const Shop_Data = {
+  Controllers : {
     id: 1,
     title: 'Controllers',
     routeName: 'Controllers',
@@ -36,7 +37,7 @@ const Shop_Data = [{
       
     ]
   },
-  {
+  Audio : {
     id: 2,
     title: 'Audio',
     routeName: 'Audio',
@@ -74,7 +75,7 @@ const Shop_Data = [{
       
     ]
   },
-  {
+  Hardware : {
     id: 3,
     title: 'Hardware',
     routeName: 'Hardware',
@@ -111,7 +112,7 @@ const Shop_Data = [{
       }
     ]
   },
-  {
+  Accessories : {
     id: 4,
     title: 'Accessories',
     routeName: 'Accessories',
@@ -149,7 +150,7 @@ const Shop_Data = [{
      
     ]
   },
-  {
+  Games : {
     id: 5,
     title: 'Games',
     routeName: 'Games',
@@ -186,6 +187,6 @@ const Shop_Data = [{
       },
       
     ]
-  }];
+  }};
 
 export default Shop_Data;
